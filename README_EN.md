@@ -1,5 +1,7 @@
 # DeepSeek Chat Search
 
+English | [中文](./README.md)
+
 A Chrome extension that adds chat history search functionality to the DeepSeek website.
 
 ## Features

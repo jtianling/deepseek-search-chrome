@@ -1,5 +1,7 @@
 # DeepSeek Chat Search
 
+[English](./README_EN.md) | 中文
+
 一个为 DeepSeek 网站添加聊天记录搜索功能的 Chrome 插件。
 
 ## 功能特性
