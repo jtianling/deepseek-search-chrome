@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "DeepSeek Chat Search",
+  "version": "1.0.0",
+  "description": "为 DeepSeek 网站添加搜索对话记录功能",
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://chat.deepseek.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://chat.deepseek.com/*"],
+      "js": [
+        "src/core/EventBus.js",
+        "src/modules/ChatDataExtractor.js",
+        "src/modules/SearchEngine.js",
+        "src/modules/UIManager.js",
+        "src/content/index.js"
+      ],
+      "css": ["src/content/styles.css"],
+      "run_at": "document_end"
+    }
+  ]
+}
