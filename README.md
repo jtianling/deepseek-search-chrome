@@ -183,6 +183,6 @@ A: 编辑 `src/modules/SearchEngine.js` 文件中的 `search()` 方法即可。
 **Q: 如何更改 UI 样式？**
 A: 编辑 `src/content/styles.css` 文件中的样式即可。
 
-## 联系方式
+## 🤖 Development Tools
 
-如有问题或建议，欢迎提交 Issue。
+This project was developed with assistance from [Cline](https://github.com/cline/cline) + [Claude Sonnet 4.5](https://www.anthropic.com/claude).
