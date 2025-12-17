@@ -183,6 +183,5 @@ A: Edit the `search()` method in the `src/modules/SearchEngine.js` file.
 **Q: How can I change the UI styles?**
 A: Edit the styles in the `src/content/styles.css` file.
 
-## Contact
-
-For questions or suggestions, please submit an Issue.
+## 🤖 Development Tools
+This project was developed with assistance from [Cline](https://github.com/cline/cline) + [Claude Sonnet 4.5](https://www.anthropic.com/claude).
